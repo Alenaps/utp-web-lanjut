@@ -15,10 +15,10 @@
         <input type="text" name="enroll_no" id="enroll_no" class="form-control" value="{{$enrollments->enroll_no}}"></br>
         
         <label>Batch</label></br>
-        <input type="text" name="batch_id" id="batch_id" class="form-control" value="{{$enrollments->batch_id}}"></br>
+        <input type="text" name="batch_id" id="batch_id" class="form-control" value="{{$enrollments->batch->name}}"></br>
         
         <label>Student</label></br>
-        <input type="text" name="student_id" id="student_id" class="form-control" value="{{$enrollments->student_id}}"></br>
+        <input type="text" name="student_id" id="student_id" class="form-control" value="{{$enrollments->student->name}}"></br>
         
         <label>Join Date</label></br>
         <input type="text" name="join_date" id="join_date" class="form-control" value="{{$enrollments->join_date}}"></br>
