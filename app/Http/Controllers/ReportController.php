@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Payment;
-use App;
+use Illuminate\Support\Facades\App;
 use Auth;
 
 
